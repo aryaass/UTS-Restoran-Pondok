@@ -1,0 +1,100 @@
+body {
+    background-attachment: fixed; 
+    background-size: cover;
+    width: 100%;
+}
+.cube {
+    padding: 10px;
+    width: 30rem;
+    height: 29rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 2%;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.cube1 {
+    padding: 25px;
+    width: 30rem;
+    /*height: 39rem;*/
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 2%;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin-left: 23%;
+    
+}
+  
+/*.cube:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(239, 238, 226, 1);
+    filter: blur(10px);
+    margin: -40px;
+}*/
+
+.cube1:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(239, 238, 226, 1);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    cube1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    cube1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    cube1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    cube1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    cube1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
